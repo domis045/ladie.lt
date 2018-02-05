@@ -1,0 +1,1136 @@
+	html, body
+
+	{
+
+		height: 100%;
+
+	}
+
+	
+
+	body
+
+	{
+
+		margin: 0px;
+
+		padding: 0px;
+		background: #111111;
+
+		font-family: 'Didact Gothic', sans-serif;
+
+		font-size: 12pt;
+
+		font-weight: 200;
+
+		color: #FFF;
+
+	}
+
+	
+
+	
+
+	h1, h2, h3
+
+	{
+
+		margin: 0;
+
+		padding: 0;
+
+	}
+
+	
+
+	p, ol, ul
+
+	{
+
+		margin-top: 0;
+
+	}
+
+	
+
+	ol, ul
+
+	{
+
+		padding: 0;
+
+		list-style: none;
+
+	}
+
+	
+
+	p
+
+	{
+
+		line-height: 180%;
+
+	}
+
+	
+
+	strong
+
+	{
+
+	}
+
+	
+
+	a
+
+	{
+
+		color: #ee0000;
+
+	}
+
+	
+
+	a:hover
+
+	{
+
+		text-decoration: none;
+
+	}
+
+	
+
+	.container
+
+	{
+
+		overflow: hidden;
+
+		margin: 0em auto;
+
+		width: 1200px;
+
+	}
+
+	
+
+/*********************************************************************************/
+
+/* Image Style                                                                   */
+
+/*********************************************************************************/
+
+
+
+	.image
+
+	{
+
+		display: inline-block;
+
+	}
+
+	
+
+	.image img
+
+	{
+
+		display: block;
+
+		width: 100%;
+
+	}
+
+	
+
+	.image-full
+
+	{
+
+		display: block;
+
+		width: 100%;
+
+		margin: 0 0 2em 0;
+
+	}
+
+	
+
+	.image-left
+
+	{
+
+		float: left;
+
+		margin: 0 2em 2em 0;
+
+	}
+
+	
+
+	.image-centered
+
+	{
+
+		display: block;
+
+		margin: 0 0 2em 0;
+
+	}
+
+	
+
+	.image-centered img
+
+	{
+
+		margin: 0 auto;
+
+		width: auto;
+
+	}
+
+
+
+/*********************************************************************************/
+
+/* List Styles                                                                   */
+
+/*********************************************************************************/
+
+
+
+	ul.style1
+
+	{
+
+	}
+
+
+
+
+
+/*********************************************************************************/
+
+/* Social Icon Styles                                                            */
+
+/*********************************************************************************/
+
+
+
+	ul.contact
+
+	{
+
+		margin: 0;
+
+		padding: 2em 0em 0em 0em;
+
+		list-style: none;
+
+	}
+
+	
+
+	ul.contact li
+
+	{
+
+		display: inline-block;
+
+		padding: 0em 0.30em;
+
+		font-size: 1em;
+
+	}
+
+	
+
+	ul.contact li span
+
+	{
+
+		display: none;
+
+		margin: 0;
+
+		padding: 0;
+
+	}
+
+	
+
+	ul.contact li a
+
+	{
+
+		color: #FFF;
+
+	}
+
+	
+
+	ul.contact li a:before
+
+	{
+
+		display: inline-block;
+
+		background: #3f3f3f;
+
+		width: 40px;
+
+		height: 40px;
+
+		line-height: 40px;
+
+		border-radius: 20px;
+
+		text-align: center;
+
+		color: #FFFFFF;
+
+	}
+
+	
+
+	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+
+	ul.contact li a.icon-facebook:before { background: #39599F; }
+
+	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
+
+	ul.contact li a.icon-tumblr:before { background: #31516A; }
+
+	ul.contact li a.icon-rss:before { background: #F2600B; }
+
+
+
+/*********************************************************************************/
+
+/* Button Style                                                                  */
+
+/*********************************************************************************/
+
+
+
+	.button
+
+	{
+
+		display: inline-block;
+
+		padding: 1em 2em 1em 2em;
+
+		letter-spacing: 0.10em;
+
+		margin-top: 2em;
+
+		padding: 1.40em 3em;
+
+		border: 2px solid rgba(255,255,255,1);
+
+		border-radius: 6px;
+
+		text-decoration: none;
+
+		font-weight: 700;
+
+		font-size: 1em;
+
+		color: #FFF;
+
+	}
+
+	
+
+	.button-alt
+
+	{
+
+		padding: 1em 2em;
+
+		border-color: rgba(0,0,0,.8);
+
+		color: rgba(0,0,0,.8);
+
+	}
+
+		
+
+/*********************************************************************************/
+
+/* 4-column                                                                      */
+
+/*********************************************************************************/
+
+
+
+	.box1,
+
+	.box2,
+
+	.box3,
+
+	.box4
+
+	{
+
+		width: 235px;
+
+	}
+
+	
+
+	.box1,
+
+	.box2,
+
+	.box3,
+
+	{
+
+		float: left;
+
+		margin-right: 20px;
+
+	}
+
+	
+
+	.box4
+
+	{
+
+		float: right;
+
+	}
+
+	
+
+/*********************************************************************************/
+
+/* 3-column                                                                      */
+
+/*********************************************************************************/
+
+
+
+	.boxA,
+
+	.boxB,
+
+	.boxC
+
+	{
+
+		width: 384px;
+
+	}
+
+
+
+	.boxA,
+
+	.boxB
+
+	{
+
+		float: left;
+
+		margin-right: 20px;
+
+	}
+
+	
+
+	.boxC
+
+	{
+
+		float: right;
+
+	}
+
+
+
+/*********************************************************************************/
+
+/* 2-column                                                                      */
+
+/*********************************************************************************/
+
+
+
+	.tbox1,
+
+	.tbox2
+
+	{
+
+		width: 575px;
+
+	}
+
+	
+
+	.tbox1
+
+	{
+
+		float: left;
+
+	}
+
+
+
+	.tbox2
+
+	{
+
+		float: right;
+
+	}
+
+
+
+	
+
+/*********************************************************************************/
+
+/* Heading Titles                                                                */
+
+/*********************************************************************************/
+
+
+
+	.title
+
+	{
+
+		margin-bottom: 3em;
+
+	}
+
+	
+
+	.title h2
+
+	{
+
+		font-size: 2.7em;
+
+	}
+
+	
+
+	.title .byline
+
+	{
+
+		font-size: 1.3em;
+
+		color: rgba(255,255,255,0.60);
+
+	}
+
+
+
+/*********************************************************************************/
+
+/* Header                                                                        */
+
+/*********************************************************************************/
+
+
+
+	#wrapper
+
+	{
+
+		position: relative;
+
+		padding: 5em 0em 7em 0em;
+
+		background: #FFF;
+
+	}
+
+/*********************************************************************************/
+
+/* Juosta                                                                        */
+
+/*********************************************************************************/
+#virs-juosta
+{
+/*border:1px blue solid;*/
+/*position: relative;*/
+padding: 7em 0em 0em 0em;
+margin-right:-2.06em;
+margin-left:-1em;
+background: url(images/linija.png) no-repeat center;
+background-size: cover;
+margin-bottom:-12em;
+}
+
+#zem-juosta{
+
+}
+
+/*********************************************************************************/
+
+/* Header                                                                        */
+
+/*********************************************************************************/
+
+
+
+	#header-wrapper
+
+	{
+
+		position: relative;
+
+		padding: 5em 2em 7em 0em;
+		background: #111111 url(images/headeris.png) no-repeat center;
+		background-size: cover;
+
+	}
+
+
+
+	#header
+
+	{
+
+		position: relative;
+	/*border:1px blue solid;*/
+		padding: 5em 0em;
+		margin-right: 50em;
+
+	}
+
+
+
+/*********************************************************************************/
+
+/* Logo                                                                          */
+
+/*********************************************************************************/
+
+
+
+	#logo
+
+	{
+		/*border: 1px blue solid;*/
+		position: absolute;
+
+		top: 4.5em;
+
+		left: 7em;
+		
+
+	}
+
+	
+
+	#logo h1
+
+	{
+
+		font-size: 2.6em;
+
+		color: #79C255;
+
+	}
+
+	
+
+	#logo a
+
+	{
+
+		text-decoration: none;
+
+		color: rgba(255,255,255,1);
+
+	}
+
+
+
+/*********************************************************************************/
+
+/* Menu                                                                          */
+
+/*********************************************************************************/
+
+
+
+	#menu
+
+	{
+	position: fixed;
+    	z-index: 10;
+	top:1.5em;
+	/*border:1px blue solid;*/
+	/*border-radius:6px;*/
+	/*border: 2px solid rgba(255,255,255,1);*/
+	/*position: absolute;*/
+	/*top: 4.5em;*/
+	/*right: 14em;*/
+
+	}
+
+	
+
+	#menu ul
+
+	{
+
+		display: inline-block;
+
+	}
+
+	
+
+	#menu li
+
+	{
+
+		display: block;
+
+		float: left;
+
+		text-align: center;
+
+	}
+
+	
+
+	#menu li a, #menu li span
+
+	{
+
+		padding: 1em 1.5em;
+
+		letter-spacing: 1px;
+
+		text-decoration: none;
+
+		text-transform: uppercase;
+
+		font-size: 0.8em;
+
+		color: rgba(255,255,255,0.80);
+
+	}
+
+	
+
+	#menu li:hover a, #menu li.active a, #menu li.active span
+
+	{
+
+	}
+
+	/* MANO*/
+	#menu .status{
+		border-radius: 6px;
+		border: 2px solid rgba(255,255,255,1);
+		background-color:white;
+		padding: 2px;
+		letter-spacing: 1px;
+
+		text-decoration: none;
+
+		text-transform: uppercase;
+
+		font-size: 0.8em;
+
+		color: rgba(255,255,255,0.80);
+					/* Permatomumas */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";       /* IE 8 */
+filter: alpha(opacity=50);  /* IE 5-7 */
+-moz-opacity: 0.5;          /* Netscape */
+-khtml-opacity: 0.5;        /* Safari 1.x */
+opacity: 0.5;               /* Good browsers */
+	}
+
+	#menu .active a
+
+	{
+
+		border: 2px solid rgba(255,255,255,1);
+
+		border-radius: 6px;
+
+		color: rgba(255,255,255,1);
+
+	}
+
+	
+
+	#menu .icon
+
+	{
+
+	}
+
+
+
+/*********************************************************************************/
+
+/* Banner                                                                        */
+
+/*********************************************************************************/
+
+
+
+	#banner
+
+	{
+		/*border:1px blue solid;*/
+		padding-top: 10em;
+		margin-left:-10em;
+		text-align: center;
+
+	}
+
+	
+
+	#banner .title h2
+
+	{
+
+		font-size: 4em;
+
+	}
+
+	
+
+	#banner .title .byline
+
+	{
+
+		font-size: 2em;
+
+	}
+
+	
+
+	#banner .button
+
+	{
+
+		margin-top: 2em;
+
+		padding: 1.40em 3em;
+
+		border: 2px solid rgba(255,255,255,1);
+
+		border-radius: 6px;
+
+		font-weight: 700;
+
+		font-size: 1em;
+
+		
+
+	}
+
+
+
+/*********************************************************************************/
+
+/* Page                                                                          */
+
+/*********************************************************************************/
+
+
+
+	#page
+
+	{
+
+	}
+
+
+
+/*********************************************************************************/
+
+/* Content                                                                       */
+
+/*********************************************************************************/
+
+
+
+	#content
+
+	{
+
+	}
+
+
+
+/*********************************************************************************/
+
+/* Sidebar                                                                       */
+
+/*********************************************************************************/
+
+
+
+	#sidebar
+
+	{
+
+	}
+
+
+
+/*********************************************************************************/
+
+/* Footer                                                                        */
+
+/*********************************************************************************/
+
+
+
+	#footer
+
+	{
+
+	}
+
+
+
+/*********************************************************************************/
+
+/* Copyright                                                                     */
+
+/*********************************************************************************/
+
+
+
+	#copyright
+
+	{
+
+		overflow: hidden;
+
+		padding: 5em 0em;
+
+		border-top: 1px solid rgba(0,0,0,0.08);
+
+	}
+
+	
+
+	#copyright p
+
+	{
+
+		text-align: center;
+
+		font-size: 1em;
+
+		color: rgba(255,255,255,0.3);
+
+	}
+
+	
+
+	#copyright a
+
+	{
+
+		text-decoration: none;
+
+		color: rgba(255,255,255,0.6);
+
+	}
+
+
+
+
+
+/*********************************************************************************/
+
+/* Welcome                                                                       */
+
+/*********************************************************************************/
+
+
+
+	#welcome
+
+	{
+
+		position: relative;
+
+		padding: 7em 0em 7em 0em;
+
+		/*background: #111111 url(images/footer.png) no-repeat center center fixed;*/
+		background: #111111 url(images/footer.png) no-repeat center;
+		background-size: cover;
+
+		text-align: center;
+
+	}
+
+	
+
+	#welcome .container
+
+	{
+
+		width: 1000px;
+
+		padding: 0px 100px;
+
+		color: rgba(255,255,255,0.8);
+
+	}
+
+	
+
+	#welcome a
+
+	{
+
+		color: rgba(255,255,255,1);
+
+	}
+
+
+
+
+
+/*********************************************************************************/
+
+/* Extra                                                                         */
+
+/*********************************************************************************/
+
+
+
+	#three-column
+
+	{
+		/*border:1px solid blue;*/
+		text-align: center;
+
+		color: rgba(0,0,0,0.6);
+
+	}
+
+
+
+	#three-column .fa
+
+	{
+
+		display: block;
+
+		padding: 1em 0em;
+
+		color: rgba(0,0,0,1);
+
+		font-size: 2em;
+
+	}
+
+	
+
+	#three-column .title h2
+
+	{
+
+		font-weight: bold;
+
+		color: rgba(0,0,0,0.8);
+
+	}
+
+
+
+	#three-column .title .byline
+
+	{
+
+		text-align: center;
+
+		color: rgba(0,0,0,.5);
+
+	}
+
+
+
+/*********************************************************************************/
+
+/* Extra                                                                         */
+
+/*********************************************************************************/
+
+#online-statuso-linija{
+margin-left:100px;
+/*border:1px blue solid;*/
+margin-top:38px;
+		padding: 1em 1.5em;
+
+		letter-spacing: 1px;
+
+		text-decoration: none;
+
+		text-transform: uppercase;
+
+		font-size: 0.8em;
+
+		color: rgba(255,255,255,0.80);
+}
+p.pazymetas{
+border:1px solid;
+border-top-style:dotted;
+border-right-style:solid;
+border-bottom-style:dotted;
+border-left-style:solid;
+border
+}
+img.du1{
+position:relative;
+display:inline;
+
+height: 39%;
+width: 39%;
+}
+img.du2{
+height: 52%;
+width: 52%;
+}
+img.du_kartu{
+
+display:inline;
+position:relative;
+}
+img.hover
+ {
+ opacity:0.4;
+ filter:alpha(opacity=40); /* For IE8 and earlier */
+ }
+ img.hover:hover
+ {
+ opacity:1.0;
+ filter:alpha(opacity=100); /* For IE8 and earlier */
+ }
+a.du:hover 
+{
+
+     text-decoration:none; 
+     cursor:pointer;  
+}

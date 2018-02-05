@@ -1,0 +1,89 @@
+/*!
+ * jQuery wmuSlider v1.0
+ * 
+ * Copyright (c) 2011 Brice Lechatellier
+ * http://brice.lechatellier.com/
+ *
+ * Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
+ */
+
+/* CSS Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1;-webkit-text-size-adjust:none;overflow-y:scroll}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}img{vertical-align:top}
+
+/* Demo */
+.wmuSlider,
+.wmuGallery {
+    margin-bottom: 20px;
+}
+
+/* mwuSlider */
+.wmuSlider {
+    position: relative;
+    overflow: hidden;
+}
+.wmuSlider .wmuSliderWrapper {
+    display: none;
+}
+.wmuSlider .wmuSliderWrapper article {
+    position: relative;
+    text-align: center;
+}
+.wmuSlider .wmuSliderWrapper article img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+/* mwuGallery */
+.wmuGallery .wmuGalleryImage {
+    position: relative;
+    text-align: center;
+}
+.wmuGallery .wmuGalleryImage img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+/* Default Skin */
+.wmuGallery .wmuGalleryImage {
+    margin-bottom: 10px;
+}
+.wmuSliderPrev, .wmuSliderNext {
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    text-indent: -9999px;
+    background: url(../images/sprites.png) no-repeat 0 0;
+    top: 50%;
+    margin-top: -40px;
+    z-index: 2;
+}
+.wmuSliderPrev {
+    background-position: 100% 0;
+    left: 20px;
+}
+.wmuSliderNext {
+    right: 20px;
+}
+.wmuSliderPagination {
+    z-index: 2;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+.wmuSliderPagination li {
+    float: left;
+    margin: 0 5px 0 0;
+    list-style-type: none;
+}
+.wmuSliderPagination a {
+    display: block;
+    text-indent: -9999px;
+    width: 10px;
+    height: 10px;
+    background: url(../images/sprites.png) no-repeat 0 -80px;
+}
+.wmuSliderPagination a.wmuActive {
+    background-position: -10px -80px;
+}
